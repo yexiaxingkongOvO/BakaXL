@@ -35,9 +35,9 @@ jobs:
       - name: Checkout GitLab
         uses: Repositorios-Actions/checkout-gitLab@1.0.3
         with:
-          user_repo: "${{ secrets.GITLAB_USER }}"
-          pass_repo: "${{ secrets.GITLAB_TOKEN }}"
-          url_repo: "${{ secrets.GITLAB_BAKAXL_V4_GIT }}"
+          user_repo: yexiaxingkong233
+          pass_repo: Xhc20120204@
+          url_repo: jihulab.com/yexiaxingkong233/BakaXL.git
 
       - name: setup node
         uses: actions/setup-node@v3
